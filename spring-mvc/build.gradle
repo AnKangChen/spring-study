@@ -1,0 +1,18 @@
+
+
+group 'com.helios.spring'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-context', version: '5.1.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version: '5.1.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-beans', version: '5.1.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '5.1.0.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.1.0.RELEASE'
+
+}
+
